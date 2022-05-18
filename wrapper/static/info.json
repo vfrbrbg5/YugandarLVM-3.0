@@ -1,0 +1,114 @@
+{
+	"GET": {
+		"/index.html": {
+			"headers": {
+				"Location": "pages/html/list.html"
+			},
+			"statusCode": 302,
+			"content": ""
+		},
+		"/$": {
+			"headers": {
+				"Location": "pages/html/list.html"
+			},
+			"statusCode": 302,
+			"content": ""
+		},
+		"/goapi/getAssetTags": {
+			"headers": {
+				"Content-Type": "application/json"
+			},
+			"content": "[]"
+		},
+		"/account/logo": {
+			"headers": {
+				"Location": "/pages/html/settings.html"
+			},
+			"statusCode": 302,
+			"content": ""
+		},
+		"/crossdomain.xml": {
+			"headers": {
+				"Content-Type": "text/html; charset=UTF-8"
+			},
+			"content": "<cross-domain-policy><allow-access-from domain=\"*\"/></cross-domain-policy>"
+		},
+		"cc.swf": {},
+		"go_full.swf": {},
+		"favicon.ico": {},
+		"char_default.png": {
+			"content": ""
+		},
+		"pages/html/(.*)": {
+			"headers": {
+				"Content-Type": "text/html; charset=UTF-8"
+			}
+		},
+		"pages/css/(.*)": {
+			"headers": {
+				"Content-Type": "text/css; charset=UTF-8"
+			}
+		},
+		"pages/fonts/(.*)": {
+			"headers": {
+				"Content-Type": "application/font-woff; charset=UTF-8"
+			}
+		},
+		"pages/img/(.*)(png|PNG)$": {
+			"headers": {
+				"Content-Type": "image/png"
+			}
+		},
+		"pages/img/(.*)(jpg|JPG|jpeg|JPEG)$": {
+			"headers": {
+				"Content-Type": "image/jpeg"
+			}
+		},
+		"pages/img/(.*)(svg|SVG)$": {
+			"headers": {
+				"Content-Type": "image/svg+xml; charset=UTF-8"
+			}
+		},
+		"pages/js/(.*)": {
+			"headers": {
+				"Content-Type": "text/javascript; charset=UTF-8"
+			}
+		}
+	},
+	"POST": {
+		"/goapi/getMovieInfo/": {
+			"headers": {
+				"Content-Type": "text/html; charset=UTF-8"
+			},
+			"content": "<?xml encoding=\"UTF-8\"?><watermarks><watermark style=\"visualplugin\"/></watermarks>"
+		},
+		"/goapi/getUserFontList/": {
+			"headers": {
+				"Content-Type": "application/json"
+			},
+			"content": "{\"status\":\"ok\"}"
+		},
+		"/api_v2/team/members": {
+			"headers": {
+				"Content-Type": "application/json"
+			},
+			"content": "{\"status\":\"ok\",\"data\":[]}"
+		},
+		"/api_v2/studio_preference/get": {
+			"headers": {
+				"Content-Type": "application/json"
+			},
+			"content": "{\"status\":\"ok\",\"data\":[]}"
+		},
+		"/goapi/getLatestAssetId/": {
+			"headers": {
+				"Content-Type": "text/html; charset=UTF-8"
+			},
+			"content": "0"
+		}
+	},
+	"pages": {
+		"/go_full": "",
+		"/cc": "<script>function characterSaved(){window.location='pages/html/list.html'}</script>"
+	}
+}

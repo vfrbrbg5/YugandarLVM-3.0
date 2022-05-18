@@ -1,0 +1,57 @@
+{
+	"assets": [
+		{
+			"id": "6ffb1a4.mp3",
+			"enc_asset_id": "6ffb1a4",
+			"themeId": "ugc",
+			"type": "sound",
+			"subtype": "bgmusic",
+			"title": "Door Opening - Sound Effect.mp3",
+			"tags": "",
+			"duration": 2429
+		},
+		{
+			"id": "a2c7919.png",
+			"enc_asset_id": "a2c7919",
+			"themeId": "ugc",
+			"type": "bg",
+			"subtype": "0",
+			"title": "bfCar.png",
+			"tags": ""
+		},
+		{
+			"id": "83c715c.png",
+			"enc_asset_id": "83c715c",
+			"themeId": "ugc",
+			"type": "prop",
+			"subtype": "0",
+			"title": "LOGO_SWF.png",
+			"tags": ""
+		},
+		{
+			"id": "87f1bbc",
+			"enc_asset_id": "87f1bbc",
+			"type": "movie",
+			"title": "Untitled",
+			"published": "",
+			"share": {
+				"type": "none"
+			},
+			"tags": "",
+			"file": "87f1bbc.xml"
+		},
+		{
+			"id": "e66afed",
+			"enc_asset_id": "e66afed",
+			"type": "movie",
+			"title": "Untitled",
+			"published": "",
+			"share": {
+				"type": "none"
+			},
+			"tags": "",
+			"file": "e66afed.xml"
+		}
+	],
+	"faw": []
+}
