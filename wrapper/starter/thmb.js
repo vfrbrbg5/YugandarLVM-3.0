@@ -1,3 +1,6 @@
+/***
+* starter thumb route
+*/
 const starter = require("./main");
 module.exports = function (req, res, url) {
 	if (req.method != "GET" || !url.path.startsWith("/starter_thumbs")) return;
