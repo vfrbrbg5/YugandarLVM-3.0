@@ -6,6 +6,4 @@ READ THE SYSTEM REQUIREMENTS
 - [Adobe Flash Player](https://cdn.discordapp.com/attachments/709957501298147424/789712302562738216/install_flash_player_ppapi.exe)
 - [Node.js v 17.6.0](https://nodejs.org/dist/v17.6.0/node-v17.6.0-x64.msi)
 - [Git](https://git-scm.com/)
-These Are All the requirements
 
-                         - By Yugandar's World Animator
