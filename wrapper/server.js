@@ -21,6 +21,7 @@ const chl = require("./character/load");
 const chs = require("./character/save");
 const chu = require("./character/upload");
 const sts = require("./starter/save");
+const stt = require("./starter/thmb");
 const Stl = require("./static/load");
 const Stp = require("./static/page");
 const mvl = require("./movie/load");
@@ -49,6 +50,7 @@ const functions = [
 	chs,
 	chu,
 	sts,
+	stt,
 	Stl,
 	Stp,
 	mvl,
