@@ -1,6 +1,27 @@
 {
 	"assets": [
-		
+		{
+			"id": "3d0a772.mp3",
+			"enc_asset_id": "3d0a772",
+			"themeId": "ugc",
+			"type": "sound",
+			"subtype": "tts",
+			"title": "[Joey (PO)] this is the test.",
+			"tags": "",
+			"duration": 1176
+		},
+		{
+			"id": "297fcb5",
+			"enc_asset_id": "297fcb5",
+			"type": "movie",
+			"title": "Untitled",
+			"published": "",
+			"share": {
+				"type": "none"
+			},
+			"tags": "",
+			"file": "297fcb5.xml"
+		}
 	],
 	"faw": []
 }
