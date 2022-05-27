@@ -1,6 +1,16 @@
 {
 	"assets": [
 		{
+			"id": "f86ecee.mp3",
+			"enc_asset_id": "f86ecee",
+			"themeId": "ugc",
+			"type": "sound",
+			"subtype": "tts",
+			"title": "[David] this is the test.",
+			"tags": "",
+			"duration": 1358
+		},
+		{
 			"id": "b5d215b.mp3",
 			"enc_asset_id": "b5d215b",
 			"themeId": "ugc",
@@ -351,6 +361,30 @@
 			},
 			"tags": "",
 			"file": "297fcb5.xml"
+		},
+		{
+			"id": "0e511ea",
+			"enc_asset_id": "0e511ea",
+			"type": "movie",
+			"title": "Untitled",
+			"published": "",
+			"share": {
+				"type": "none"
+			},
+			"tags": "",
+			"file": "0e511ea.xml"
+		},
+		{
+			"id": "19c7092",
+			"enc_asset_id": "19c7092",
+			"type": "movie",
+			"title": "Untitled",
+			"published": "",
+			"share": {
+				"type": "none"
+			},
+			"tags": "",
+			"file": "19c7092.xml"
 		}
 	],
 	"faw": []
